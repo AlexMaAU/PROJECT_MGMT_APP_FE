@@ -28,7 +28,7 @@ const cache = new InMemoryCache({
 
 // 创建ApolloClient实例，指向后端的GraphQL端口
 const client = new ApolloClient({
-  uri: "http://localhost:3000/graphql",
+  uri: "https://project-mgmt-app-be-1.onrender.com/graphql",
   cache: cache,
 });
 
